@@ -1,0 +1,24 @@
+.statusbadge-root--draft {
+  background: rgba(148, 163, 184, 0.15);
+  color: #64748b;
+}
+
+.statusbadge-root--sent {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+}
+
+.statusbadge-root--accepted {
+  background: rgba(34, 197, 94, 0.15);
+  color: #16a34a;
+}
+
+.statusbadge-root--rejected {
+  background: rgba(239, 68, 68, 0.15);
+  color: #dc2626;
+}
+
+.statusbadge-root--expired {
+  background: rgba(245, 158, 11, 0.15);
+  color: #d97706;
+}

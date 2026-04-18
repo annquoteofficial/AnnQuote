@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-title {
+    font-size: 22px;
+  }
+
+  .dashboard-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .dashboard-stat-card {
+    padding: 16px;
+  }
+
+  .dashboard-stat-value {
+    font-size: 22px;
+  }
+
+  .dashboard-table-wrap {
+    overflow-x: auto;
+  }
+
+  .dashboard-table {
+    min-width: 500px;
+  }
+}

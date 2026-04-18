@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .clientlist-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .clientlist-title {
+    font-size: 22px;
+  }
+
+  .clientlist-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clientlist-form-actions {
+    flex-direction: column;
+  }
+
+  .clientlist-submit-btn,
+  .clientlist-cancel-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .clientlist-table-wrap {
+    overflow-x: auto;
+  }
+
+  .clientlist-table {
+    min-width: 480px;
+  }
+}

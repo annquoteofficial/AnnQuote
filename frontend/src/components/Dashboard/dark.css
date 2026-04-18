@@ -1,0 +1,63 @@
+@media (prefers-color-scheme: dark) {
+  .dashboard-title {
+    color: #f1f5f9;
+  }
+
+  .dashboard-new-btn {
+    background: #6366f1;
+    color: #ffffff;
+  }
+
+  .dashboard-new-btn:hover {
+    background: #818cf8;
+  }
+
+  .dashboard-stat-card {
+    background: #1e293b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .dashboard-stat-card--total .dashboard-stat-value  { color: #818cf8; }
+  .dashboard-stat-card--draft .dashboard-stat-value  { color: #94a3b8; }
+  .dashboard-stat-card--sent .dashboard-stat-value   { color: #60a5fa; }
+  .dashboard-stat-card--accepted .dashboard-stat-value { color: #4ade80; }
+  .dashboard-stat-card--rejected .dashboard-stat-value { color: #f87171; }
+  .dashboard-stat-card--value .dashboard-stat-value  { color: #38bdf8; }
+
+  .dashboard-stat-label {
+    color: #94a3b8;
+  }
+
+  .dashboard-section-title {
+    color: #f1f5f9;
+  }
+
+  .dashboard-table-wrap {
+    background: #1e293b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .dashboard-table-head-row {
+    background: #273548;
+  }
+
+  .dashboard-th {
+    color: #94a3b8;
+  }
+
+  .dashboard-tr {
+    border-top-color: #273548;
+  }
+
+  .dashboard-td {
+    color: #e2e8f0;
+  }
+
+  .dashboard-view-link {
+    color: #818cf8;
+  }
+
+  .dashboard-loading {
+    color: #64748b;
+  }
+}

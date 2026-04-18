@@ -1,0 +1,111 @@
+.quotedetail-page {
+  width: 100%;
+}
+
+.quotedetail-loading {
+  padding: 32px;
+  text-align: center;
+}
+
+.quotedetail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+  gap: 16px;
+}
+
+.quotedetail-quote-num {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.quotedetail-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.quotedetail-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.quotedetail-status-select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  outline: none;
+  font-family: inherit;
+}
+
+.quotedetail-btn {
+  border: none;
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
+}
+
+.quotedetail-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.quotedetail-card {
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.quotedetail-card-title {
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.quotedetail-info-row {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.quotedetail-items-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quotedetail-thead-row {
+  text-align: left;
+}
+
+.quotedetail-th {
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+}
+
+.quotedetail-tr + .quotedetail-tr {
+  border-top: 1px solid transparent;
+}
+
+.quotedetail-td {
+  padding: 12px 8px;
+  font-size: 14px;
+}
+
+.quotedetail-total-row .quotedetail-td:first-child {
+  text-align: right;
+  font-weight: 700;
+}
+
+.quotedetail-td--total {
+  font-weight: 700;
+}

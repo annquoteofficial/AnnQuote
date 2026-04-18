@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .quotedetail-header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .quotedetail-title {
+    font-size: 20px;
+  }
+
+  .quotedetail-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .quotedetail-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .quotedetail-card {
+    padding: 16px;
+  }
+
+  .quotedetail-card--items {
+    overflow-x: auto;
+  }
+
+  .quotedetail-items-table {
+    min-width: 420px;
+  }
+}

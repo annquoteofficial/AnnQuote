@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .quotelist-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .quotelist-title {
+    font-size: 22px;
+  }
+
+  .quotelist-filters {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .quotelist-status-select {
+    width: 100%;
+  }
+
+  .quotelist-table-wrap {
+    overflow-x: auto;
+  }
+
+  .quotelist-table {
+    min-width: 640px;
+  }
+}

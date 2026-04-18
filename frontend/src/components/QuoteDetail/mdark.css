@@ -1,0 +1,11 @@
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .quotedetail-card {
+    background: #1e293b;
+  }
+
+  .quotedetail-status-select {
+    background: #1e293b;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+}

@@ -1,0 +1,101 @@
+.quotelist-page {
+  width: 100%;
+}
+
+.quotelist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.quotelist-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.quotelist-new-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.quotelist-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.quotelist-search {
+  flex: 1;
+  padding: 9px 14px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  outline: none;
+}
+
+.quotelist-status-select {
+  width: 160px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  outline: none;
+}
+
+.quotelist-table-wrap {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.quotelist-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quotelist-thead-row {
+  text-align: left;
+}
+
+.quotelist-th {
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.quotelist-tr + .quotelist-tr {
+  border-top: 1px solid transparent;
+}
+
+.quotelist-td {
+  padding: 13px 16px;
+  font-size: 14px;
+}
+
+.quotelist-actions-cell {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.quotelist-action-btn {
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.quotelist-empty {
+  padding: 32px;
+  text-align: center;
+}

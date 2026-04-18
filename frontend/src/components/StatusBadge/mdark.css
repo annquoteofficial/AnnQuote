@@ -1,0 +1,6 @@
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .statusbadge-root {
+    font-size: 11px;
+    padding: 2px 8px;
+  }
+}

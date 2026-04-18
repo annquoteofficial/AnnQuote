@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .quoteform-page {
+    max-width: 100%;
+  }
+
+  .quoteform-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .quoteform-section {
+    padding: 16px;
+  }
+
+  .quoteform-item-row {
+    grid-template-columns: 1fr 60px 90px 32px;
+    gap: 6px;
+  }
+
+  .quoteform-actions {
+    flex-direction: column;
+  }
+
+  .quoteform-submit-btn,
+  .quoteform-cancel-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,75 @@
+.quoteform-heading {
+  color: #1e293b;
+}
+
+.quoteform-error {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.quoteform-section {
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.quoteform-section-title {
+  color: #475569;
+}
+
+.quoteform-label {
+  color: #475569;
+}
+
+.quoteform-input,
+.quoteform-select,
+.quoteform-textarea {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.quoteform-input:focus,
+.quoteform-select:focus,
+.quoteform-textarea:focus {
+  border-color: #6366f1;
+}
+
+.quoteform-remove-btn {
+  background: #fee2e2;
+  color: #ef4444;
+}
+
+.quoteform-add-item-btn {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.quoteform-add-item-btn:hover {
+  background: #e2e8f0;
+}
+
+.quoteform-total {
+  color: #1e293b;
+}
+
+.quoteform-total-value {
+  color: #6366f1;
+}
+
+.quoteform-submit-btn {
+  background: #6366f1;
+  color: #ffffff;
+}
+
+.quoteform-submit-btn:hover:not(:disabled) {
+  background: #4f46e5;
+}
+
+.quoteform-cancel-btn {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.quoteform-cancel-btn:hover {
+  background: #e2e8f0;
+}

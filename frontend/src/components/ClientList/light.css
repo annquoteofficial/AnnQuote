@@ -1,0 +1,92 @@
+.clientlist-title {
+  color: #1e293b;
+}
+
+.clientlist-new-btn {
+  background: #6366f1;
+  color: #ffffff;
+}
+
+.clientlist-new-btn:hover {
+  background: #4f46e5;
+}
+
+.clientlist-form-section {
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.clientlist-form-title {
+  color: #1e293b;
+}
+
+.clientlist-error {
+  color: #dc2626;
+}
+
+.clientlist-field-label {
+  color: #475569;
+}
+
+.clientlist-field-input {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.clientlist-field-input:focus {
+  border-color: #6366f1;
+}
+
+.clientlist-submit-btn {
+  background: #6366f1;
+  color: #ffffff;
+}
+
+.clientlist-submit-btn:hover {
+  background: #4f46e5;
+}
+
+.clientlist-cancel-btn {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.clientlist-cancel-btn:hover {
+  background: #e2e8f0;
+}
+
+.clientlist-table-wrap {
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.clientlist-thead-row {
+  background: #f1f5f9;
+}
+
+.clientlist-th {
+  color: #475569;
+}
+
+.clientlist-tr {
+  border-top-color: #f1f5f9;
+}
+
+.clientlist-td {
+  color: #1e293b;
+}
+
+.clientlist-action-btn--edit {
+  background: rgba(14, 165, 233, 0.1);
+  color: #0ea5e9;
+}
+
+.clientlist-action-btn--delete {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.clientlist-empty {
+  color: #94a3b8;
+}

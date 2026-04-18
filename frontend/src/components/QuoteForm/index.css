@@ -1,0 +1,128 @@
+.quoteform-page {
+  max-width: 720px;
+}
+
+.quoteform-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.quoteform-error {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.quoteform-section {
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.quoteform-section-title {
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.quoteform-field {
+  margin-bottom: 14px;
+}
+
+.quoteform-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.quoteform-input,
+.quoteform-select,
+.quoteform-textarea {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  outline: none;
+  font-family: inherit;
+}
+
+.quoteform-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.quoteform-item-row {
+  display: grid;
+  grid-template-columns: 1fr 80px 110px 36px;
+  gap: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.quoteform-input--qty,
+.quoteform-input--price {
+  width: 100%;
+}
+
+.quoteform-remove-btn {
+  height: 36px;
+  width: 36px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.quoteform-remove-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.quoteform-add-item-btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 4px;
+  font-family: inherit;
+}
+
+.quoteform-total {
+  text-align: right;
+  font-weight: 700;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.quoteform-total-value {
+  font-size: 18px;
+}
+
+.quoteform-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.quoteform-submit-btn,
+.quoteform-cancel-btn {
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 11px 28px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.quoteform-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

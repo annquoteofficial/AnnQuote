@@ -1,0 +1,72 @@
+.dashboard-title {
+  color: #1e293b;
+}
+
+.dashboard-new-btn {
+  background: #6366f1;
+  color: #ffffff;
+}
+
+.dashboard-new-btn:hover {
+  background: #4f46e5;
+}
+
+.dashboard-stat-card {
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-stat-card--total  { border-left-color: #6366f1; }
+.dashboard-stat-card--total .dashboard-stat-value  { color: #6366f1; }
+
+.dashboard-stat-card--draft  { border-left-color: #94a3b8; }
+.dashboard-stat-card--draft .dashboard-stat-value  { color: #64748b; }
+
+.dashboard-stat-card--sent   { border-left-color: #3b82f6; }
+.dashboard-stat-card--sent .dashboard-stat-value   { color: #3b82f6; }
+
+.dashboard-stat-card--accepted { border-left-color: #22c55e; }
+.dashboard-stat-card--accepted .dashboard-stat-value { color: #16a34a; }
+
+.dashboard-stat-card--rejected { border-left-color: #ef4444; }
+.dashboard-stat-card--rejected .dashboard-stat-value { color: #dc2626; }
+
+.dashboard-stat-card--value  { border-left-color: #0ea5e9; }
+.dashboard-stat-card--value .dashboard-stat-value  { color: #0ea5e9; }
+
+.dashboard-stat-label {
+  color: #64748b;
+}
+
+.dashboard-section-title {
+  color: #1e293b;
+}
+
+.dashboard-table-wrap {
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-table-head-row {
+  background: #f1f5f9;
+}
+
+.dashboard-th {
+  color: #475569;
+}
+
+.dashboard-tr {
+  border-top-color: #f1f5f9;
+}
+
+.dashboard-td {
+  color: #1e293b;
+}
+
+.dashboard-view-link {
+  color: #6366f1;
+}
+
+.dashboard-loading {
+  color: #94a3b8;
+}

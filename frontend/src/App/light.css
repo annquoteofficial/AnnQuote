@@ -1,0 +1,26 @@
+.app-nav {
+  background: #1e293b;
+}
+
+.app-logo {
+  color: #ffffff;
+}
+
+.app-nav-link {
+  color: #94a3b8;
+}
+
+.app-nav-link:hover {
+  background: #273548;
+  color: #cbd5e1;
+}
+
+.app-nav-link--active {
+  color: #ffffff;
+  background: #334155;
+}
+
+.app-main {
+  background: #f8fafc;
+  color: #1e293b;
+}

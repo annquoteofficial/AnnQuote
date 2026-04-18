@@ -1,0 +1,57 @@
+@media (prefers-color-scheme: dark) {
+  .quotelist-title {
+    color: #f1f5f9;
+  }
+
+  .quotelist-search,
+  .quotelist-status-select {
+    background: #1e293b;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+
+  .quotelist-search:focus,
+  .quotelist-status-select:focus {
+    border-color: #818cf8;
+  }
+
+  .quotelist-table-wrap {
+    background: #1e293b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .quotelist-thead-row {
+    background: #273548;
+  }
+
+  .quotelist-th {
+    color: #94a3b8;
+  }
+
+  .quotelist-tr {
+    border-top-color: #273548;
+  }
+
+  .quotelist-td {
+    color: #e2e8f0;
+  }
+
+  .quotelist-action-btn--view {
+    background: rgba(129, 140, 248, 0.15);
+    color: #818cf8;
+  }
+
+  .quotelist-action-btn--edit {
+    background: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+  }
+
+  .quotelist-action-btn--delete {
+    background: rgba(248, 113, 113, 0.15);
+    color: #f87171;
+  }
+
+  .quotelist-empty {
+    color: #64748b;
+  }
+}

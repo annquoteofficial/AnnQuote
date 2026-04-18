@@ -1,0 +1,85 @@
+@media (prefers-color-scheme: dark) {
+  .clientlist-title {
+    color: #f1f5f9;
+  }
+
+  .clientlist-form-section {
+    background: #1e293b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .clientlist-form-title {
+    color: #f1f5f9;
+  }
+
+  .clientlist-error {
+    color: #f87171;
+  }
+
+  .clientlist-field-label {
+    color: #94a3b8;
+  }
+
+  .clientlist-field-input {
+    background: #273548;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+
+  .clientlist-field-input:focus {
+    border-color: #818cf8;
+  }
+
+  .clientlist-submit-btn {
+    background: #6366f1;
+    color: #ffffff;
+  }
+
+  .clientlist-submit-btn:hover {
+    background: #818cf8;
+  }
+
+  .clientlist-cancel-btn {
+    background: #273548;
+    color: #94a3b8;
+  }
+
+  .clientlist-cancel-btn:hover {
+    background: #334155;
+  }
+
+  .clientlist-table-wrap {
+    background: #1e293b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .clientlist-thead-row {
+    background: #273548;
+  }
+
+  .clientlist-th {
+    color: #94a3b8;
+  }
+
+  .clientlist-tr {
+    border-top-color: #273548;
+  }
+
+  .clientlist-td {
+    color: #e2e8f0;
+  }
+
+  .clientlist-action-btn--edit {
+    background: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+  }
+
+  .clientlist-action-btn--delete {
+    background: rgba(248, 113, 113, 0.15);
+    color: #f87171;
+  }
+
+  .clientlist-empty {
+    color: #64748b;
+  }
+}

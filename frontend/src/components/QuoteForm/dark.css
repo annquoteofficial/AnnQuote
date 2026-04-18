@@ -1,0 +1,77 @@
+@media (prefers-color-scheme: dark) {
+  .quoteform-heading {
+    color: #f1f5f9;
+  }
+
+  .quoteform-error {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+  }
+
+  .quoteform-section {
+    background: #1e293b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .quoteform-section-title {
+    color: #94a3b8;
+  }
+
+  .quoteform-label {
+    color: #94a3b8;
+  }
+
+  .quoteform-input,
+  .quoteform-select,
+  .quoteform-textarea {
+    background: #273548;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+
+  .quoteform-input:focus,
+  .quoteform-select:focus,
+  .quoteform-textarea:focus {
+    border-color: #818cf8;
+  }
+
+  .quoteform-remove-btn {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+  }
+
+  .quoteform-add-item-btn {
+    background: #273548;
+    color: #94a3b8;
+  }
+
+  .quoteform-add-item-btn:hover {
+    background: #334155;
+  }
+
+  .quoteform-total {
+    color: #e2e8f0;
+  }
+
+  .quoteform-total-value {
+    color: #818cf8;
+  }
+
+  .quoteform-submit-btn {
+    background: #6366f1;
+    color: #ffffff;
+  }
+
+  .quoteform-submit-btn:hover:not(:disabled) {
+    background: #818cf8;
+  }
+
+  .quoteform-cancel-btn {
+    background: #273548;
+    color: #94a3b8;
+  }
+
+  .quoteform-cancel-btn:hover {
+    background: #334155;
+  }
+}

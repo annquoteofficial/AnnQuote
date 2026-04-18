@@ -1,0 +1,15 @@
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .clientlist-form-section {
+    background: #1e293b;
+  }
+
+  .clientlist-field-input {
+    background: #273548;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+
+  .clientlist-table-wrap {
+    background: #1e293b;
+  }
+}

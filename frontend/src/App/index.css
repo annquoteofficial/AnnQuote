@@ -1,0 +1,35 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-nav {
+  width: 220px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.app-logo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  padding-left: 12px;
+}
+
+.app-nav-link {
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.app-main {
+  flex: 1;
+  padding: 32px;
+  overflow-y: auto;
+}

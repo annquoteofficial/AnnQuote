@@ -1,0 +1,10 @@
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .app-nav {
+    background: #020617;
+    border-bottom: 1px solid #1e293b;
+  }
+
+  .app-main {
+    background: #0f172a;
+  }
+}

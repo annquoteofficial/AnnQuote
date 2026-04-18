@@ -1,0 +1,59 @@
+@media (prefers-color-scheme: dark) {
+  .quotedetail-loading {
+    color: #64748b;
+  }
+
+  .quotedetail-quote-num {
+    color: #64748b;
+  }
+
+  .quotedetail-title {
+    color: #f1f5f9;
+  }
+
+  .quotedetail-status-select {
+    background: #1e293b;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+
+  .quotedetail-btn--edit {
+    background: #0284c7;
+    color: #ffffff;
+  }
+
+  .quotedetail-btn--delete {
+    background: #dc2626;
+    color: #ffffff;
+  }
+
+  .quotedetail-card {
+    background: #1e293b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .quotedetail-card-title {
+    color: #94a3b8;
+  }
+
+  .quotedetail-info-row {
+    color: #e2e8f0;
+  }
+
+  .quotedetail-th {
+    color: #94a3b8;
+    border-bottom-color: #334155;
+  }
+
+  .quotedetail-tr {
+    border-top-color: #273548;
+  }
+
+  .quotedetail-td {
+    color: #e2e8f0;
+  }
+
+  .quotedetail-td--total {
+    color: #818cf8;
+  }
+}

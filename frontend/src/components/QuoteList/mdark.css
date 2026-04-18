@@ -1,0 +1,12 @@
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .quotelist-search,
+  .quotelist-status-select {
+    background: #1e293b;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+
+  .quotelist-table-wrap {
+    background: #1e293b;
+  }
+}

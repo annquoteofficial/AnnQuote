@@ -1,0 +1,13 @@
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .quoteform-section {
+    background: #1e293b;
+  }
+
+  .quoteform-input,
+  .quoteform-select,
+  .quoteform-textarea {
+    background: #273548;
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+}
