@@ -3,10 +3,11 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from typing import List, Optional
 from database import get_db
+from dependencies import get_current_user
 import models, schemas
 from datetime import datetime
 
-router = APIRouter(prefix="/quotes", tags=["quotes"])
+router = APIRouter(prefix="/quotes", tags=["quotes"], dependencies=[Depends(get_current_user)])
 
 
 def _next_quote_number(db: Session) -> str:

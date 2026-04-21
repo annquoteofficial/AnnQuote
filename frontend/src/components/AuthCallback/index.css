@@ -1,0 +1,26 @@
+.authcallback-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.authcallback-spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-width: 3px;
+  animation: authcallback-spin 0.75s linear infinite;
+}
+
+@keyframes authcallback-spin {
+  to { transform: rotate(360deg); }
+}
+
+.authcallback-label {
+  font-size: 15px;
+  font-weight: 500;
+}

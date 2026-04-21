@@ -28,6 +28,10 @@ services:
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-annquote}:${POSTGRES_PASSWORD:-annquote_pass}@db:5432/${POSTGRES_DB:-annquote_db}
       SECRET_KEY: ${SECRET_KEY:-changeme_in_production}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      BACKEND_URL: ${BACKEND_URL:-http://localhost:8000}
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
     ports:
       - "8000:8000"
     depends_on:

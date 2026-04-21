@@ -26,4 +26,23 @@
   .app-main {
     padding: 16px;
   }
+
+  .app-nav-spacer {
+    display: none;
+  }
+
+  .app-user {
+    padding: 6px 10px;
+    margin-top: 0;
+  }
+
+  .app-user-name {
+    display: none;
+  }
+
+  .app-logout-btn {
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
 }

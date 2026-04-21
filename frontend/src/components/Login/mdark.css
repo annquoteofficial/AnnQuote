@@ -1,0 +1,10 @@
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .login-card {
+    background: #1e293b;
+  }
+
+  .login-google-btn {
+    background: #273548;
+    border-color: #334155;
+  }
+}

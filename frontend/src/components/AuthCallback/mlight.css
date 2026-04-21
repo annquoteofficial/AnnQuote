@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .authcallback-spinner {
+    width: 32px;
+    height: 32px;
+  }
+
+  .authcallback-label {
+    font-size: 14px;
+  }
+}

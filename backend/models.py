@@ -5,6 +5,17 @@ from database import Base
 import enum
 
 
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    google_id = Column(String(100), unique=True, nullable=False, index=True)
+    email = Column(String(200), unique=True, nullable=False, index=True)
+    name = Column(String(200))
+    picture = Column(String(500))
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
 class QuoteStatus(str, enum.Enum):
     draft = "draft"
     sent = "sent"

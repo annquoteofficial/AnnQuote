@@ -24,3 +24,21 @@
   background: #f8fafc;
   color: #1e293b;
 }
+
+.app-user {
+  background: #273548;
+}
+
+.app-user-name {
+  color: #cbd5e1;
+}
+
+.app-logout-btn {
+  background: transparent;
+  color: #64748b;
+}
+
+.app-logout-btn:hover {
+  background: #273548;
+  color: #94a3b8;
+}

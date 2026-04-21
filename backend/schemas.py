@@ -80,3 +80,13 @@ class StatsOut(BaseModel):
     accepted: int
     rejected: int
     total_value: float
+
+
+class UserOut(BaseModel):
+    id: int
+    email: str
+    name: Optional[str] = None
+    picture: Optional[str] = None
+
+    class Config:
+        from_attributes = True

@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: dark) {
+  .authcallback-page {
+    background: #0f172a;
+  }
+
+  .authcallback-spinner {
+    border-color: #334155;
+    border-top-color: #818cf8;
+  }
+
+  .authcallback-label {
+    color: #94a3b8;
+  }
+}

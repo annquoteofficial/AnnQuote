@@ -1,0 +1,31 @@
+.login-page {
+  background: #f8fafc;
+}
+
+.login-card {
+  background: #ffffff;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.login-logo {
+  color: #6366f1;
+}
+
+.login-tagline {
+  color: #64748b;
+}
+
+.login-google-btn {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.login-google-btn:hover {
+  background: #f8fafc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-footer {
+  color: #94a3b8;
+}

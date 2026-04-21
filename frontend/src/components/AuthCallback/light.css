@@ -1,0 +1,12 @@
+.authcallback-page {
+  background: #f8fafc;
+}
+
+.authcallback-spinner {
+  border-color: #e2e8f0;
+  border-top-color: #6366f1;
+}
+
+.authcallback-label {
+  color: #64748b;
+}

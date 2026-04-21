@@ -4,6 +4,26 @@ const api = axios.create({
   baseURL: process.env.REACT_APP_API_URL || "http://localhost:8000",
 });
 
+api.interceptors.request.use((config) => {
+  const token = localStorage.getItem("annquote_token");
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+});
+
+api.interceptors.response.use(
+  (res) => res,
+  (err) => {
+    if (err.response?.status === 401) {
+      localStorage.removeItem("annquote_token");
+      localStorage.removeItem("annquote_user");
+      window.location.href = "/login";
+    }
+    return Promise.reject(err);
+  }
+);
+
 export const quotes = {
   list: (params) => api.get("/quotes/", { params }),
   get: (id) => api.get(`/quotes/${id}`),
